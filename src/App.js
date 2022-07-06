@@ -16,7 +16,6 @@ export default function App() {
                 }}
             >
                 <Link to="/AlbumOverview">Album overview</Link> |{" "}
-                <Link to="/AlbumCard">Album cards</Link> |{" "}
             </nav>
         </div>
     );

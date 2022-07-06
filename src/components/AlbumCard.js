@@ -14,10 +14,8 @@ const Style = {
 
 };
 
-
-
-export const AlbumCardInfo = ({
-    id = "1", name = "Section. 80", artist = "Kendrick Lamar", imageUrl = "https://media.pitchfork.com/photos/5929b026b1335d7bf169a080/1:1/w_600/2d538998.jpg" }) => {
+const AlbumCard = ({
+    id, name, artist, imageUrl}) => {
     return (
         <><CardActionArea style={Style}>
             <CardMedia
@@ -32,8 +30,4 @@ export const AlbumCardInfo = ({
     );
 };
 
-export default function AlbumCard() {
-    return (
-                <AlbumCardInfo/>
-    );
-}
+export default AlbumCard
