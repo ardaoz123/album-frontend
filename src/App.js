@@ -8,7 +8,7 @@ import {
 export default function App() {
     return (
         <div>
-            <h1>Bookkeeper!</h1>
+            <h1>Album Index</h1>
             <nav
                 style={{
                     borderBottom: "solid 1px",
@@ -16,6 +16,7 @@ export default function App() {
                 }}
             >
                 <Link to="/AlbumOverview">Album overview</Link> |{" "}
+                <Link to="/AlbumCard">Album cards</Link> |{" "}
             </nav>
         </div>
     );
